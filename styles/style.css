@@ -444,10 +444,32 @@ a:focus-visible {
 	}
 
 	.footer {
-		block-size: calc(100vh - 42px);
+		block-size: calc(100vh - 40px);
 	}
 
 	.footer_title {
 		font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+	}
+
+	.footer.decorated-zone::before {
+		content: "";
+		position: absolute;
+		border-block-start: 1px solid var(--heading-color, #FF0070);
+		border-inline-end: 1px solid var(--heading-color, #FF0070);
+		top: 0px;
+		right: 0;
+		inline-size: 25px;
+		block-size: 25px;
+	}
+	
+	.footer.decorated-zone::after {
+		content: "";
+		position: absolute;
+		border-block-end: 1px solid var(--heading-color, #FF0070);
+		border-inline-start: 1px solid var(--heading-color, #FF0070);
+		left: 0;
+		bottom: 3px;
+		inline-size: 25px;
+		block-size: 25px;
 	}
 }
