@@ -444,7 +444,7 @@ a:focus-visible {
 	}
 
 	.footer {
-		block-size: calc(100vh - 37px);
+		block-size: calc(100vh - 42px);
 	}
 
 	.footer_title {
