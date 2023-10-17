@@ -4,7 +4,7 @@
   переключая тему
 */
 .page.theme_dark {
-  --font: IBM Plex Mono;
+  --font: 'IBM Plex Mono';
   --bg-color: #000028;
   --cover-color: #DB00FF;
   --text-color: #F1B2CE;
