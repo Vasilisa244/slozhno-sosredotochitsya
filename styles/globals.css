@@ -6,10 +6,10 @@
   box-sizing: border-box;
 }
 
-body {
+.page {
   min-inline-size: 375px;
   max-inline-size: 1440px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -42,3 +42,4 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+

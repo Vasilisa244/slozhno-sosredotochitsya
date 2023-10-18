@@ -23,6 +23,16 @@
 	outline: 1px solid rgba(50, 49, 45, 0.40);
 }
 
+@media (max-width: 768px) {
+.page.theme_light .title {
+	text-shadow: 4px 4px 0 #FF8DCB;
+}
+
+.page.theme_light .footer_title {
+	text-shadow: 2px 2px 0 #FF8DCB;
+}
+}
+
 
 @media (prefers-color-scheme: light) {
 	:root {
@@ -46,6 +56,12 @@
 	}
 }
 
+@media (max-width: 768px) and (prefers-color-scheme: light) {
+	.title:not(.theme_dark .title) {
+		text-shadow: 4px 4px 0 #FF8DCB;
+	}
 
-      
-  
+	.footer_title:not(.theme_dark .footer_title) {
+		text-shadow: 2px 2px 0 #FF8DCB;
+	}
+	}
