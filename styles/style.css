@@ -23,7 +23,6 @@
 	position: relative;
 	padding-block-end: 114px;
 	inline-size: 100%;
-	inline-size: 100%;
 }
 
 .header__theme-menu {
@@ -282,7 +281,7 @@
 }
 
 .footer {
-	padding: 20px;
+	padding: 20px 20px 0;
 	block-size: 100vh;
 	min-block-size: 668px;
 	min-inline-size: 375px;
@@ -294,7 +293,7 @@
 }
 
 .footer_title {
-	padding-block-end: 40px;
+	padding-block-end: 60px;
 	color: var(--cover-color, #DB00FF);
 	text-shadow: 2px 2px 0 #FF0070;
 	;
@@ -338,7 +337,6 @@
 
 .text-shadow:hover {
 	border-block-end: 1px solid var(--text-color, #F1B2CE);
-	cursor: none;
 	cursor: pointer;
 }
 
@@ -409,7 +407,7 @@
 	}
 
 	.footer_title {
-		padding-block-end: 0;
+		padding-block-end: 20px;
 	}
 
 	.footer.decorated-zone::before {
@@ -527,7 +525,7 @@
 	}
 
 	.footer_title {
-		padding-block-start: 60px;
+		padding-block-start: 47px;
 		font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 	}
 
