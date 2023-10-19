@@ -5,6 +5,8 @@
 	color: var(--text-color);
 	display: grid;
 	gap: 60px;
+	justify-content: center;
+	align-items: center;
 	background-image: var(--bg-img);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -16,14 +18,16 @@
 .header {
 	padding: 20px;
 	display: grid;
-	block-size: 100vh;
+	block-size: 100vh; 
 	min-block-size: 668px;
 	align-content: space-around;
 	gap: 238px;
 	position: relative;
 	padding-block-end: 114px;
 	inline-size: 100%;
+	grid-template-rows: 1fr;
 }
+/* высота задана высоте экрана */
 
 .header__theme-menu {
 	display: flex;
@@ -291,6 +295,7 @@
 	align-items: center;
 	inline-size: 100%;
 }
+/* высота задана высоте экрана */
 
 .footer_title {
 	padding-block-end: 60px;
@@ -499,10 +504,6 @@
 
 	.content-section_what {
 		gap: 20px;
-	}
-
-	.all_card_what {
-		grid-template-columns: repeat(auto-fit, minmax(min(355px, 100%), 1fr));
 	}
 
 	.content-section_why {
