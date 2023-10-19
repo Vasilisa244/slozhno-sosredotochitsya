@@ -18,7 +18,7 @@
 .header {
 	padding: 20px;
 	display: grid;
-	block-size: 100vh; 
+	block-size: 100vh;
 	min-block-size: 668px;
 	align-content: space-around;
 	gap: 238px;
