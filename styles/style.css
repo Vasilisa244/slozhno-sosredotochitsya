@@ -25,7 +25,6 @@
 	position: relative;
 	padding-block-end: 114px;
 	inline-size: 100%;
-	grid-template-rows: 1fr;
 }
 /* высота задана высоте экрана */
 
