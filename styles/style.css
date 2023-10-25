@@ -111,7 +111,7 @@
 }
 
 p.subtitle {
-	margin-bottom: 4.2%;
+	margin-block-end: 4.2%;
 }
 
 .title-decor {
@@ -357,7 +357,7 @@ p.subtitle {
 	}
 
 	.header__theme-menu {
-		margin-top: 4.2%;
+		margin-block-start: 4.2%;
 		justify-self: end;
 		align-self: center;
 	}
